@@ -1,7 +1,10 @@
 import './App.css';
+import BuykitList from "./components/buykitList/BuykitList";
 
 function App() {
-  return <div className="App"></div>;
+  return <div>
+    <BuykitList />
+  </div>;
 }
 
 export default App;
