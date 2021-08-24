@@ -1,9 +1,9 @@
 import './App.css';
-import BuykitList from "./components/buykitList/BuykitList";
+import BuykitContainer from "./containers/buykitContainer";
 
 function App() {
   return <div>
-    <BuykitList />
+    <BuykitContainer />
   </div>;
 }
 
